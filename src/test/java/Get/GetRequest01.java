@@ -11,7 +11,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest extends AutomationExericesAPI {
+public class GetRequest01 extends AutomationExericesAPI {
     /*
         API URL: https://automationexercise.com/api/productsList
         Request Method: GET
@@ -20,7 +20,7 @@ public class GetRequest extends AutomationExericesAPI {
      */
 
     @Test
-    public void get01() {
+    public void get01_01() {
         //set URL
         spec.pathParams("first", "api", "second", "productsList");
 
@@ -35,7 +35,7 @@ public class GetRequest extends AutomationExericesAPI {
     }
 
     @Test
-    public void get02() {
+    public void get01_02() {
         //set URL
         spec.pathParams("first", "api", "second", "productsList");
 
